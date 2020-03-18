@@ -6,6 +6,8 @@ import { DataContext } from '../DataContext/DataContext'
 import IMAGES from '../../data/images.json'
 import mediumZoom from 'medium-zoom'
 
+import { Section } from '../../blocks/Section/Section'
+
 const PHOTOS_ROOT_URL = process.env.REACT_APP_PHOTOS_ROOT_URL
 
 export const App = ({
@@ -36,6 +38,26 @@ export const App = ({
           {...section}
         />
       ))}
+
+      <Section
+        style={{
+          marginTop: 100
+        }}>
+        <div
+          style={{
+            position: 'relative',
+          }}>
+          <a
+            style={{
+              position: 'absolute',
+              bottom: 0,
+              left: 0,
+            }}
+            href="https://simonfan.com.br/">
+            simon fan
+          </a>
+        </div>
+      </Section>
     </main>
   </DataContext.Provider>
 }
