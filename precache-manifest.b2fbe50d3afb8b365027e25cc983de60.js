@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db9b810aa95afda4a4422a3e5d1eaa75",
+    "revision": "44669b9057f546015a863022954bf19f",
     "url": "/blokoke-2020/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blokoke-2020/static/css/2.1ad75add.chunk.css"
   },
   {
-    "revision": "6bc6306f63d84765a82f",
+    "revision": "45be82f495e4e7b3aeff",
     "url": "/blokoke-2020/static/css/main.a580f6cf.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blokoke-2020/static/js/2.7f538e73.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6bc6306f63d84765a82f",
-    "url": "/blokoke-2020/static/js/main.baeca244.chunk.js"
+    "revision": "45be82f495e4e7b3aeff",
+    "url": "/blokoke-2020/static/js/main.4fe933bb.chunk.js"
   },
   {
     "revision": "20df7b667a932383928e",
