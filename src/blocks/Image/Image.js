@@ -1,8 +1,5 @@
 import React, { useContext } from 'react'
 import { DataContext } from '../../components/DataContext/DataContext'
-// import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
-
 import 'lazysizes'
 import 'lazysizes/plugins/attrchange/ls.attrchange'
 

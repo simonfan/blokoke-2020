@@ -6,6 +6,9 @@
   padding-top: 5%;
   padding-bottom: 5%;
 
+  opacity: 0.1;
+  transition: opacity .3s ease;
+
   > .Section__Contents {
     max-width: 1400px;
 
@@ -16,5 +19,9 @@
     @media (min-width: 601px) {
       width: 80%;
     }
+  }
+
+  &.Section--active {
+    opacity: 1;
   }
 }
