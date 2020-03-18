@@ -184,40 +184,31 @@ export default [
           "id": "DSC_5029.JPG"
         },
         {
-          "id": "DSC_5031.JPG"
-        },
-      ]
-    ],
-    "address": "São Paulo / Blókõkê",
-    "caption": "Moradores do bairro acompanham passagem do cortejo"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_5035.JPG",
-    "imageRows": [
-      [
-        {
           "id": "DSC_5034.JPG"
         },
-        {
-          "id": "DSC_5048.JPG"
-        }
       ]
     ],
     "address": "São Paulo / Blókõkê",
     "caption": "Moradores do bairro acompanham passagem do cortejo"
-  },
-  {
+  },  {
     "type": "ImageSection",
     "id": "DSC_5050.JPG",
     "imageRows": [
       [
         {
+          "id": "DSC_5052.JPG"
+        },
+      ],
+      [
+        {
           "id": "DSC_5047.JPG"
         },
         {
-          "id": "DSC_5052.JPG"
-        }
+          "id": "DSC_5048.JPG"
+        },
+        {
+          "id": "DSC_5031.JPG"
+        },
       ]
     ],
     "address": "São Paulo / Blókõkê",
@@ -233,7 +224,7 @@ export default [
         },
         {
           "id": "DSC_5042.JPG"
-        }
+        },
       ]
     ],
     "address": "São Paulo / Blókõkê",
