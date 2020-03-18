@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/blokoke-2020/static/css/main.a580f6cf.chunk.css",
-    "main.js": "/blokoke-2020/static/js/main.59613c38.chunk.js",
-    "main.js.map": "/blokoke-2020/static/js/main.59613c38.chunk.js.map",
+    "main.js": "/blokoke-2020/static/js/main.9f395b1c.chunk.js",
+    "main.js.map": "/blokoke-2020/static/js/main.9f395b1c.chunk.js.map",
     "runtime-main.js": "/blokoke-2020/static/js/runtime-main.f3036462.js",
     "runtime-main.js.map": "/blokoke-2020/static/js/runtime-main.f3036462.js.map",
     "static/css/2.1ad75add.chunk.css": "/blokoke-2020/static/css/2.1ad75add.chunk.css",
     "static/js/2.57dd110f.chunk.js": "/blokoke-2020/static/js/2.57dd110f.chunk.js",
     "static/js/2.57dd110f.chunk.js.map": "/blokoke-2020/static/js/2.57dd110f.chunk.js.map",
     "index.html": "/blokoke-2020/index.html",
-    "precache-manifest.c6fba33e2e7ef43aea0bb4b6b99e48e8.js": "/blokoke-2020/precache-manifest.c6fba33e2e7ef43aea0bb4b6b99e48e8.js",
+    "precache-manifest.75a8e87c053bfbfa9d6ae44465b1166d.js": "/blokoke-2020/precache-manifest.75a8e87c053bfbfa9d6ae44465b1166d.js",
     "service-worker.js": "/blokoke-2020/service-worker.js",
     "static/css/2.1ad75add.chunk.css.map": "/blokoke-2020/static/css/2.1ad75add.chunk.css.map",
     "static/css/main.a580f6cf.chunk.css.map": "/blokoke-2020/static/css/main.a580f6cf.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.1ad75add.chunk.css",
     "static/js/2.57dd110f.chunk.js",
     "static/css/main.a580f6cf.chunk.css",
-    "static/js/main.59613c38.chunk.js"
+    "static/js/main.9f395b1c.chunk.js"
   ]
 }
