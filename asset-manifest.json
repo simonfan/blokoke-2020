@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/blokoke-2020/static/css/main.a64a3480.chunk.css",
-    "main.js": "/blokoke-2020/static/js/main.af95b6aa.chunk.js",
-    "main.js.map": "/blokoke-2020/static/js/main.af95b6aa.chunk.js.map",
+    "main.css": "/blokoke-2020/static/css/main.9a02e4c4.chunk.css",
+    "main.js": "/blokoke-2020/static/js/main.f5c1b8ac.chunk.js",
+    "main.js.map": "/blokoke-2020/static/js/main.f5c1b8ac.chunk.js.map",
     "runtime-main.js": "/blokoke-2020/static/js/runtime-main.f3036462.js",
     "runtime-main.js.map": "/blokoke-2020/static/js/runtime-main.f3036462.js.map",
-    "static/css/2.1ad75add.chunk.css": "/blokoke-2020/static/css/2.1ad75add.chunk.css",
-    "static/js/2.3c6bd7d1.chunk.js": "/blokoke-2020/static/js/2.3c6bd7d1.chunk.js",
-    "static/js/2.3c6bd7d1.chunk.js.map": "/blokoke-2020/static/js/2.3c6bd7d1.chunk.js.map",
+    "static/css/2.764ccc25.chunk.css": "/blokoke-2020/static/css/2.764ccc25.chunk.css",
+    "static/js/2.f0277fb8.chunk.js": "/blokoke-2020/static/js/2.f0277fb8.chunk.js",
+    "static/js/2.f0277fb8.chunk.js.map": "/blokoke-2020/static/js/2.f0277fb8.chunk.js.map",
     "index.html": "/blokoke-2020/index.html",
-    "precache-manifest.66caed9a18d500e9ce74351abc0106cf.js": "/blokoke-2020/precache-manifest.66caed9a18d500e9ce74351abc0106cf.js",
+    "precache-manifest.c875ae8a76e57a5a0b3428f0ec4fcba6.js": "/blokoke-2020/precache-manifest.c875ae8a76e57a5a0b3428f0ec4fcba6.js",
     "service-worker.js": "/blokoke-2020/service-worker.js",
-    "static/css/2.1ad75add.chunk.css.map": "/blokoke-2020/static/css/2.1ad75add.chunk.css.map",
-    "static/css/main.a64a3480.chunk.css.map": "/blokoke-2020/static/css/main.a64a3480.chunk.css.map",
-    "static/js/2.3c6bd7d1.chunk.js.LICENSE.txt": "/blokoke-2020/static/js/2.3c6bd7d1.chunk.js.LICENSE.txt"
+    "static/css/2.764ccc25.chunk.css.map": "/blokoke-2020/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.9a02e4c4.chunk.css.map": "/blokoke-2020/static/css/main.9a02e4c4.chunk.css.map",
+    "static/js/2.f0277fb8.chunk.js.LICENSE.txt": "/blokoke-2020/static/js/2.f0277fb8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f3036462.js",
-    "static/css/2.1ad75add.chunk.css",
-    "static/js/2.3c6bd7d1.chunk.js",
-    "static/css/main.a64a3480.chunk.css",
-    "static/js/main.af95b6aa.chunk.js"
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.f0277fb8.chunk.js",
+    "static/css/main.9a02e4c4.chunk.css",
+    "static/js/main.f5c1b8ac.chunk.js"
   ]
 }
