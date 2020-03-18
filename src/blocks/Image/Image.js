@@ -6,7 +6,7 @@ import 'react-medium-image-zoom/dist/styles.css'
 import 'lazysizes'
 import 'lazysizes/plugins/attrchange/ls.attrchange'
 
-const ImageZoom = ({ zoom, ...props }) => {
+const ImageZoom = ({ zoom, alt, ...props }) => {
   const zoomRef = React.useRef(zoom.clone())
 
   const attachZoom = image => {
@@ -15,6 +15,7 @@ const ImageZoom = ({ zoom, ...props }) => {
 
   return <img
     {...props}
+    alt={alt}
     ref={attachZoom}
   />
 }

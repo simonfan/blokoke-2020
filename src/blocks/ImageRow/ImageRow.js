@@ -47,6 +47,9 @@ export const ImageRow = ({
 }) => {
   const isMobile = useMedia('(max-width: 600px)')
   gap = isMobile ? 15 : 20
+
+  const shouldBeFullWidthImage = isMobile && images.length === 1
+
   const containerRef = useRef(null)
 
   const { getImageData } = useContext(DataContext)
@@ -55,10 +58,9 @@ export const ImageRow = ({
 
   const aspectRatios = images.map(image => getImageData(image).aspectRatio)
 
-
   useDebounce(() => {
     setImageDimensions(
-      (width && height)
+      (width !== undefined && height !== undefined)
         ? calculateImageDimensions({
             aspectRatios,
             availableWidth: width,
@@ -78,22 +80,35 @@ export const ImageRow = ({
       flexDirection: 'row',
       justifyContent: 'flex-start',
       ...style,
-      height: imageDimensions
-        ? Math.min(imageDimensions[0].height, targetHeight)
-        : targetHeight,
+      height: shouldBeFullWidthImage
+        ? 'auto'
+        : imageDimensions
+          ? Math.min(imageDimensions[0].height, targetHeight)
+          : targetHeight,
     }}
     ref={containerRef}>
-    {imageDimensions && images.map(({ type, ...imageProps}, index) => <div
-      style={index > 0 ? {
-        [marginCSSKey]: gap,
-      } : {}}>
-      <Block
-        {...imageProps}
+    {imageDimensions && images.map(({ type, ...imageProps}, index) => {
+      const width = shouldBeFullWidthImage
+        ? '100%'
+        : imageDimensions[index].width
+
+      const height = shouldBeFullWidthImage
+        ? 'auto'
+        : imageDimensions[index].height
+
+      return <div
         key={index}
-        type={type ? type : 'Image'}
-        width={imageDimensions[index].width}
-        height={imageDimensions[index].height}
-      />
-    </div>)}
+        style={{
+          [marginCSSKey]: index > 0 ? gap : 0,
+          width,
+        }}>
+        <Block
+          {...imageProps}
+          type={type ? type : 'Image'}
+          width={width}
+          height={height}
+        />
+      </div>
+    })}
   </HtmlTag>
 }

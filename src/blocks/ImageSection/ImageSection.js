@@ -28,7 +28,10 @@ export const ImageSection = ({
             "columnEnd": isMobile ? 13 : 11,
             "children": imageRows.map((imageRow, index) => ({
               type: 'ImageRow',
-              images: imageRow,
+              images: imageRow.map(image => ({
+                alt: caption,
+                ...image
+              })),
               targetHeight: .8 * window.innerHeight,
               style: {
                 marginTop: index > 0
