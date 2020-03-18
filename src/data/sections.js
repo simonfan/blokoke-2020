@@ -10,7 +10,7 @@ export default [
       ]
     ],
     "address": "São Paulo / Blókõkê",
-    "caption": "Concentração - Bixiga / Viaduto Júlio de Mesquita Filho\n\n<><><><><><><>\n<> o bloko de karnaval de rua kom mikrofone aberto e sucessos do karaokê!<>\n<> karaokêiros, bagaçeiros, gente aberta & antenas de plantão <><><><><><><><>"
+    "caption": "Concentração - Bixiga / Viaduto Júlio de Mesquita Filho\n\n<><><><><><><>\n<> o bloko de karnaval de rua kom mikrofone aberto e sucessos do karaokê!<>\n<> karaokêiros, bagaçeiros, gente aberta & antenas de plantão <>\n<><><><><><><>"
   },
   {
     "type": "ImageSection",
@@ -1142,7 +1142,7 @@ export default [
       ]
     ],
     "address": "São Paulo / Blókõkê",
-    "caption": "Água"
+    "caption": "Água, redenção"
   },
   {
     "type": "ImageSection",
@@ -1185,6 +1185,11 @@ export default [
     "type": "ImageSection",
     "id": "IMG_8992.jpg",
     "imageRows": [
+      [
+        {
+          "id": "IMG_8997.jpg"
+        },
+      ],
       [
         {
           "id": "IMG_8994.jpg"
