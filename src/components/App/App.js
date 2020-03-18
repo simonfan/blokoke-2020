@@ -41,6 +41,7 @@ export const App = ({
 
       <Section
         style={{
+          opacity: 1,
           marginTop: 100
         }}>
         <div
