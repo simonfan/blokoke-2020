@@ -1,4 +1,4 @@
-import React, { useState, useRef, useContext } from 'react'
+import React, { useRef, useContext } from 'react'
 import { HtmlTag } from '../HtmlTag/HtmlTag'
 import { DataContext } from '../../components/DataContext/DataContext'
 
@@ -13,10 +13,13 @@ const calculateImageDimensions = ({
 }) => {
   const sameHeightWidths = aspectRatios.map(({ width, height }) => (targetHeight / height) * width)
 
-  const totalSize = sameHeightWidths.reduce((acc, width) => acc + width, 0) + (aspectRatios.length - 1) * gap
+  const gapsTotalWidth = (aspectRatios.length - 1) * gap
+  const totalSize = sameHeightWidths.reduce((acc, width) => acc + width, 0)
 
-  const multiplier = totalSize > availableWidth
-    ? availableWidth / totalSize
+  const availableWidthMinusGaps = availableWidth - gapsTotalWidth
+
+  const multiplier = totalSize > availableWidthMinusGaps
+    ? availableWidthMinusGaps / totalSize
     : 1
 
   return sameHeightWidths.map((w, index) => {
@@ -53,7 +56,7 @@ export const ImageRow = ({
   const containerRef = useRef(null)
 
   const { getImageData } = useContext(DataContext)
-  const { width, height } = useRect(containerRef)
+  const { width } = useRect(containerRef)
 
   const aspectRatios = images.map(image => getImageData(image).aspectRatio)
   const imageDimensions = (width !== undefined)

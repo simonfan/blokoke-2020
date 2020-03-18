@@ -9,8 +9,8 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
-    "caption": "Concentração - Bixiga / Viaduto Júlio de Mesquita Filho\n\n<><><><><><><>\n<> o bloko de karnaval de rua kom mikrofone aberto e sucessos do karaokê!<>\n<> karaokêiros, bagaçeiros, gente aberta & antenas de plantão <>\n<><><><><><><>"
+    "address": "São Paulo / blókõkê / Bixiga / Casa de Dona Yayá",
+    "caption": "Concentração - Vista para Viaduto Júlio de Mesquita Filho\n\n<><><><><><><>\n\nonde kéres revólver sou OKÊ kisermos ser\n\nonde kéres revólver sou ____\n\n<> o bloko de karnaval de rua kom mikrofone aberto e sucessos do karaokê! <>\n<> karaokêiros, bagaçeiros, gente aberta & antenas de plantão <><><><><><><>\nmunivos <>\n\n[@blokoke_](https://www.instagram.com/blokoke_/)"
   },
   {
     "type": "ImageSection",
@@ -25,7 +25,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Até o fim do capital"
   },
   {
@@ -41,7 +41,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Aquecimento da bateria"
   },
   {
@@ -54,7 +54,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Foliões"
   },
   {
@@ -81,7 +81,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Carro de som"
   },
   {
@@ -97,7 +97,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Só kero"
   },
   {
@@ -113,7 +113,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Saída"
   },
   {
@@ -126,7 +126,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Saxofonista"
   },
   {
@@ -142,7 +142,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Foliões"
   },
   {
@@ -158,7 +158,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Livre"
   },
   {
@@ -188,7 +188,7 @@ export default [
         },
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Moradores do bairro acompanham passagem do cortejo"
   },  {
     "type": "ImageSection",
@@ -211,7 +211,7 @@ export default [
         },
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Máscaras"
   },
   {
@@ -227,7 +227,7 @@ export default [
         },
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Aberto todos os dias\nShopping Bugigangas"
   },
   {
@@ -243,7 +243,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Moradores e foliões"
   },
   {
@@ -259,7 +259,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Bateria"
   },
   {
@@ -275,7 +275,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Bateria"
   },
   {
@@ -302,7 +302,7 @@ export default [
         },
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Pessoas cantando"
   },
   {
@@ -318,7 +318,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "\\o/"
   },
   {
@@ -334,7 +334,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "\\o/"
   },
   {
@@ -375,7 +375,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Segurança de tráfego"
   },
   {
@@ -391,7 +391,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "À frente do cortejo"
   },
   {
@@ -407,7 +407,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Moradores acompanham cortejo"
   },
   {
@@ -434,7 +434,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "🙌🙌 Vem!"
   },
   {
@@ -450,7 +450,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "👋👋👋"
   },
   {
@@ -469,7 +469,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Cantora"
   },
   {
@@ -504,7 +504,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Cruzamento"
   },
   {
@@ -520,7 +520,7 @@ export default [
         },
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Foliões"
   },
   {
@@ -536,7 +536,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Foliões"
   },
   {
@@ -552,7 +552,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Moradores acompanham cortejo"
   },
   {
@@ -568,7 +568,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Primavera 🌸"
   },
   {
@@ -584,7 +584,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Mr. Bean"
   },
   {
@@ -603,7 +603,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "\\o/"
   },
   {
@@ -619,7 +619,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "\\o/"
   },
   {
@@ -649,7 +649,7 @@ export default [
         },
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Ame seu corpo\n\\o/"
   },
   {
@@ -665,7 +665,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Rua \\o/"
   },
   // {
@@ -693,7 +693,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "\\o/\\o/"
   },
   // {
@@ -721,7 +721,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "✌"
   },
   {
@@ -737,7 +737,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "😬😬"
   },
   {
@@ -758,7 +758,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "\\o/\\o/\\o/\n\\o/\\o/\\o/\\o/\n\\o/\\o/\\o/\\o/\\o/"
   },
   {
@@ -774,7 +774,7 @@ export default [
         },
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "\\o/"
   },
   {
@@ -790,7 +790,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "👀"
   },
   {
@@ -858,7 +858,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Onde keres revólver..."
   },
   {
@@ -871,7 +871,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Folião"
   },
   {
@@ -905,7 +905,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Foliões"
   },
   {
@@ -921,7 +921,7 @@ export default [
         }
       ],
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Viaduto Major Quedinho\nAtrás do cortejo"
   },
   {
@@ -951,7 +951,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Segurança de tráfego (2)"
   },
   {
@@ -972,7 +972,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Samba no pé"
   },
   {
@@ -985,7 +985,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "\\o/"
   },
   {
@@ -1001,7 +1001,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Mímico"
   },
   {
@@ -1017,7 +1017,7 @@ export default [
         },
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Selva"
   },
   {
@@ -1033,7 +1033,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Livre"
   },
   {
@@ -1071,8 +1071,8 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
-    "caption": "Carnaval de rua"
+    "address": "São Paulo / blókõkê",
+    "caption": "Rua"
   },
   {
     "type": "ImageSection",
@@ -1087,8 +1087,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
-    "caption": "Nariz"
+    "address": "São Paulo / blókõkê"
   },
   {
     "type": "ImageSection",
@@ -1103,7 +1102,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
   },
   {
     "type": "ImageSection",
@@ -1118,7 +1117,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
   },
   {
     "type": "ImageSection",
@@ -1141,7 +1140,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Água, redenção"
   },
   {
@@ -1157,7 +1156,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Folião"
   },
   {
@@ -1178,7 +1177,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Bateria"
   },
   {
@@ -1218,7 +1217,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Chuva"
   },
   {
@@ -1237,7 +1236,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "Fim (?)"
   },
   {
@@ -1250,7 +1249,7 @@ export default [
         }
       ]
     ],
-    "address": "São Paulo / Blókõkê",
+    "address": "São Paulo / blókõkê",
     "caption": "🙏🙏🙏"
   }
 ]

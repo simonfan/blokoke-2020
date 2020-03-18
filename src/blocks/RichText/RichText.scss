@@ -7,6 +7,17 @@
   > * + * {
     margin-top: 10px;
   }
+
+  a {
+    color: darkgray;
+    font-size: 0.875rem;
+    text-decoration: none;
+
+    &:hover {
+      color: gainsboro;
+      text-decoration: underline;
+    }
+  }
 }
 
 .RichText--figcaption {

@@ -7,8 +7,11 @@ import IMAGES from '../../data/images.json'
 import mediumZoom from 'medium-zoom'
 
 import { Section } from '../../blocks/Section/Section'
+import { RichText } from '../../blocks/RichText/RichText'
 
 const PHOTOS_ROOT_URL = process.env.REACT_APP_PHOTOS_ROOT_URL
+
+const FOOTER_TEXT = `carnaval [blókõkê (@blokoke_)](https://www.instagram.com/blokoke_/)\nfotografia [simon fan](https://simonfan.com.br)`
 
 export const App = ({
   sections
@@ -42,22 +45,10 @@ export const App = ({
       <Section
         style={{
           opacity: 1,
-          marginTop: 100
+          marginTop: 150,
+          marginBottom: 50
         }}>
-        <div
-          style={{
-            position: 'relative',
-          }}>
-          <a
-            style={{
-              position: 'absolute',
-              bottom: 0,
-              left: 0,
-            }}
-            href="https://simonfan.com.br/">
-            simon fan
-          </a>
-        </div>
+        <RichText className='RichText--figcaption' content={FOOTER_TEXT} />
       </Section>
     </main>
   </DataContext.Provider>
