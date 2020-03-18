@@ -31,7 +31,9 @@ export const ImageSection = ({
               images: imageRow,
               targetHeight: .8 * window.innerHeight,
               style: {
-                marginTop: index > 0 ? 20 : 0,
+                marginTop: index > 0
+                  ? isMobile ? 15 : 20
+                  : 0,
                 justifyContent: 'center',
               }
             }))

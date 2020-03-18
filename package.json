@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf build/blokoke-2020",
+    "build": "react-scripts build && rm -rf build/photos",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

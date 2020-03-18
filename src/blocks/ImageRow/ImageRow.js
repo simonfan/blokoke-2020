@@ -3,7 +3,7 @@ import { HtmlTag } from '../HtmlTag/HtmlTag'
 import { DataContext } from '../../components/DataContext/DataContext'
 
 import { useRect } from '@orioro/react-util'
-import { useDebounce } from 'react-use'
+import { useDebounce, useMedia } from 'react-use'
 
 const calculateImageDimensions = ({
   aspectRatios = [],
@@ -34,7 +34,7 @@ const calculateImageDimensions = ({
 export const ImageRow = ({
   images,
   targetHeight = 200,
-  gap = 20,
+  gap,
   style = {},
   direction = 'ltr',
   defaultAspectRatio = {
@@ -45,6 +45,8 @@ export const ImageRow = ({
 
   ...props
 }) => {
+  const isMobile = useMedia('(max-width: 600px)')
+  gap = isMobile ? 15 : 20
   const containerRef = useRef(null)
 
   const { getImageData } = useContext(DataContext)
