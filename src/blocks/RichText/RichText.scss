@@ -1,0 +1,26 @@
+.RichText {
+  > * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  > * + * {
+    margin-top: 10px;
+  }
+}
+
+.RichText--figcaption {
+  color: gainsboro;
+  font-size: 0.875rem;
+  white-space: pre-wrap;
+
+  > address {
+    font-style: normal;
+    color: darkgray;
+    margin-bottom: 5px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

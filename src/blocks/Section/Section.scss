@@ -1,0 +1,20 @@
+.Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  > .Section__Contents {
+    max-width: 1400px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+
+    @media (min-width: 601px) {
+      width: 80%;
+    }
+  }
+}

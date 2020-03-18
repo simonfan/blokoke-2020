@@ -1,0 +1,7 @@
+.App {
+  padding-bottom: 30vh;
+
+  @media (max-width: 600px) {
+    padding-top: 30vh;
+  }
+}

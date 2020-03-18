@@ -1,0 +1,53 @@
+{
+  "name": "blokoke-2020",
+  "homepage": "https://simonfan.com.br/blokoke-2020",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@orioro/react-util": "0.0.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "lazysizes": "^5.2.0",
+    "lodash": "^4.17.15",
+    "medium-zoom": "^1.0.5",
+    "normalize.css": "^8.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-lazyload": "^2.6.5",
+    "react-markdown": "^4.3.1",
+    "react-medium-image-zoom": "^4.3.0",
+    "react-scripts": "3.4.0",
+    "react-transition-group": "^4.3.0",
+    "react-use": "^13.27.0",
+    "react-visibility-sensor": "^5.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "calculate-aspect-ratio": "^0.1.3",
+    "image-size": "^0.8.3",
+    "mkdirp": "^0.5.1",
+    "node-sass": "^4.13.0",
+    "sharp": "^0.23.4"
+  }
+}
