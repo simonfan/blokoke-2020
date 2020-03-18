@@ -3,7 +3,7 @@ import { HtmlTag } from '../HtmlTag/HtmlTag'
 import { DataContext } from '../../components/DataContext/DataContext'
 
 import { useRect } from '@orioro/react-util'
-import { useDebounce, useMedia } from 'react-use'
+import { useMedia } from 'react-use'
 
 const calculateImageDimensions = ({
   aspectRatios = [],
@@ -53,23 +53,17 @@ export const ImageRow = ({
   const containerRef = useRef(null)
 
   const { getImageData } = useContext(DataContext)
-  const [imageDimensions, setImageDimensions] = useState(null)
   const { width, height } = useRect(containerRef)
 
   const aspectRatios = images.map(image => getImageData(image).aspectRatio)
-
-  useDebounce(() => {
-    setImageDimensions(
-      (width !== undefined && height !== undefined)
-        ? calculateImageDimensions({
-            aspectRatios,
-            availableWidth: width,
-            targetHeight: height,
-            gap,
-          })
-        : null
-    )
-  }, 1000, [width, height, aspectRatios, gap, calculateImageDimensions])
+  const imageDimensions = (width !== undefined)
+    ? calculateImageDimensions({
+        aspectRatios,
+        availableWidth: width,
+        targetHeight,
+        gap,
+      })
+    : null
 
   const marginCSSKey = direction === 'ltr' ? 'marginLeft' : 'marginRight'
 

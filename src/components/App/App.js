@@ -21,7 +21,7 @@ export const App = ({
       zoomRef,
       resolveImageUrls: ({ id }) => ({
         placeholderSrc: `${PHOTOS_ROOT_URL}/miniature/${id}`,
-        zoomSrc: `${PHOTOS_ROOT_URL}/2000w/${id}`,
+        zoomSrc: `${PHOTOS_ROOT_URL}/full/${id}`,
         srcset: `${PHOTOS_ROOT_URL}/900w/${id} 900w,
           ${PHOTOS_ROOT_URL}/1400w/${id} 1400w,
           ${PHOTOS_ROOT_URL}/2000w/${id} 2000w,
