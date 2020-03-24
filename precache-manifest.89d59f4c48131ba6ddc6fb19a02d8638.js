@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5aa8bb8bec1611282d71d98f47217a30",
+    "revision": "06b997ed077bbfc1b40e30ae0ca2976e",
     "url": "/blokoke-2020/index.html"
   },
   {

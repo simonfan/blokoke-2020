@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/blokoke-2020/precache-manifest.8596c1c5cca9cdbe85db538d1b123a1e.js"
+  "/blokoke-2020/precache-manifest.89d59f4c48131ba6ddc6fb19a02d8638.js"
 );
 
 self.addEventListener('message', (event) => {
